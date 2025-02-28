@@ -129,22 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-
-# Local
-.DS_Store
-*.local
-*.log*
-
-# Dist
-node_modules
+# Tanstack stuff
+.netlify/
+.output/
+.vinxi/
 dist/
-.vinxi
-.output
-.vercel
-.netlify
-.wrangler
-
-# IDE
-.vscode/*
-!.vscode/extensions.json
-.idea
