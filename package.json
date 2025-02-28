@@ -1,0 +1,51 @@
+{
+  "name": "luzhanqi-ng",
+  "version": "1.0.0",
+  "description": "Built with tanstack start.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^22"
+  },
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "check": "npx @biomejs/biome check --write",
+    "test": "echo 'TESTS COMING SOON'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@convex-dev/react-query": "^0.0.0-alpha.8",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/postcss": "^4.0.8",
+    "@tailwindcss/vite": "^4.0.8",
+    "@tanstack/react-query": "^5.66.9",
+    "@tanstack/react-router": "^1.109.2",
+    "@tanstack/react-router-with-query": "^1.111.3",
+    "@tanstack/start": "^1.111.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "convex": "^1.19.2",
+    "lucide-react": "^0.475.0",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.8",
+    "tailwindcss-animate": "^1.0.7",
+    "vinxi": "^0.5.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/css-modules": "^1.0.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "lefthook": "^1.11.0",
+    "typescript": "^5.7.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
