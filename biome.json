@@ -13,7 +13,8 @@
       "dist/*",
       ".output/*",
       ".vinxi/*",
-      "app/styles/app.css"
+      "app/styles/app.css",
+      ".netlify/*"
     ]
   },
   "formatter": {
@@ -27,7 +28,10 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "noParameterAssign": "off"
+      }
     }
   },
   "javascript": {
